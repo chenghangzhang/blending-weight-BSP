@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\MeshBoolOperate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Combine\Combine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Classify\Classify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\MathSurport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\MeshIntersect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\MeshIntersectResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\MeshTriangleIntersectRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectMiddleVertex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectOriginalVertex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectTerminalVertex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectVertex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Path\MeshIntersectPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Path\PathSegment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\Direct\DirectMeshIntersectAccelerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\Base\MeshIntersectAccelerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\Detect\Relation\Point3dTriangle3dRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\Detect\Relation\LineSegment\LineSegmentIntersect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\Detect\IsOn\IsOn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\UtilsUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Render.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Pipline\Renderer\Base\CompositeRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Pipline\Renderer\Base\UnitRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Pipline\Renderer\EdgeSetRenderer\EdgeSetRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Pipline\RenderParas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Pipline\RenderScence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Shader\Base\FragmentShader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Shader\Base\Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Shader\Base\ShaderTemplate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Shader\Base\VertexShader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Shader\LitShader\LitShader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Shader\SolidShader\SolidShader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Wnd\RenderWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Camera\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\DataBind\DataBinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\Render\Light\Light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\DataChange\DataTranslate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\DataGenerate\GenerateMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\mPch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Remesh\RemeshOperate\Dependency\RemeshPathEdge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Remesh\RemeshOperate\CDTRemsh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Remesh\RemeshOperate\RemeshOperate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\PreProcess\PreProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPAccelerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\DataGenerate\ReadCheckPair.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\MathSurport\Boost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTAccelerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mBool\BoolOperate\MeshBoolOperate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Remesh\Remesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Combine\Combine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Classify\Classify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\BoolRely.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\mPch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\MathSurport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\MeshIntersect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Dependency.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\MeshIntersectResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\MeshTriangleIntersectRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\IntersectionVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectMiddleVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectOriginalVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectTerminalVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Path\MeshIntersectPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Path\PathSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\Direct\DirectMeshIntersectAccelerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\Base\MeshIntersectAccelerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\Accelerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\Detect\Detect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\Detect\Relation\Point3dTriangle3dRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\Detect\Relation\LineSegment\LineSegmentIntersect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\Detect\IsOn\IsOn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MyMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\UtilsUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Render.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Wnd\RenderWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\Base\CompositeRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\Base\SingleRenderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\Base\UnitRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\ComponentRenderer\EdgesRenderer\EdgesRenderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\ComponentRenderer\TrianglesRenderer\TrianglesRenderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\ComponentRenderer\VerticesRenderer\VerticesRenderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\EdgeSetRenderer\EdgeSetRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\Renderer\MeshRenderer\Mesh3dRenderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\RenderParas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Pipline\RenderScence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Shader\Base\FragmentShader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Shader\Base\Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Shader\Base\ShaderTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Shader\Base\VertexShader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Shader\LitShader\LitShader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Shader\SolidShader\SolidShader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Camera\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\DataBind\DataBinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\learnopengl\camera_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\learnopengl\filesystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\learnopengl\shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\Render\Light\Light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\DataChange\DataTranslate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\DataGenerate\GenerateMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Remesh\RemeshOperate\Dependency\RemeshPathEdge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Remesh\RemeshOperate\CDTRemsh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Remesh\RemeshOperate\RemeshOperate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\PreProcess\PreProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPAccelerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPTreeHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\DataGenerate\ReadCheckPair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\MathSurport\Boost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTAccelerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTreeHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mBool\Tessil\ordered_hash" />
+    <None Include="mBool\Tessil\ordered_map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mBool\Tessil\README.txt" />
+    <Text Include="MA.txt" />
+    <Text Include="MB.txt" />
+  </ItemGroup>
+</Project>

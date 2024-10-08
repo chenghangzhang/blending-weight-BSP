@@ -1,0 +1,574 @@
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: patch re-linking failed
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: patch re-linking failed
+maxDepth 1
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 1740.29毫秒
+查询时间：114762毫秒
+UTFR :0
+ITRA :0
+ITRA2:0
+maxDepth 1
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 1495.55毫秒
+查询时间：354533毫秒
+UTFR :0.208973
+ITRA :0
+ITRA2:0
+maxDepth 1
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 2138.79毫秒
+查询时间：216232毫秒
+UTFR :0.339613
+ITRA :0
+ITRA2:0
+maxDepth 1
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 1722.33毫秒
+查询时间：390409毫秒
+UTFR :0.225056
+ITRA :0
+ITRA2:0
+maxDepth 2
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 3115.76毫秒
+查询时间：38149.3毫秒
+UTFR :0.384479
+ITRA :0
+ITRA2:0
+maxDepth 2
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 2460.88毫秒
+查询时间：164302毫秒
+UTFR :0.393722
+ITRA :0
+ITRA2:0
+maxDepth 2
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 3053.31毫秒
+查询时间：75770.5毫秒
+UTFR :0.339613
+ITRA :0
+ITRA2:0
+maxDepth 2
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 2716.68毫秒
+查询时间：154676毫秒
+UTFR :0.396052
+ITRA :0
+ITRA2:0
+maxDepth 3
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 3865.36毫秒
+查询时间：9717.51毫秒
+UTFR :0.672286
+ITRA :0
+ITRA2:0
+maxDepth 3
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 2962.94毫秒
+查询时间：85548.3毫秒
+UTFR :0.393722
+ITRA :0
+ITRA2:0
+maxDepth 3
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 3851.07毫秒
+查询时间：48497.5毫秒
+UTFR :0.339613
+ITRA :0
+ITRA2:0
+maxDepth 3
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 2942.54毫秒
+查询时间：76032.1毫秒
+UTFR :0.396052
+ITRA :0
+ITRA2:0
+maxDepth 4
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 4034.37毫秒
+查询时间：4376.91毫秒
+UTFR :0.741301
+ITRA :0
+ITRA2:0
+maxDepth 4
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 3601.02毫秒
+查询时间：41371.9毫秒
+UTFR :0.414089
+ITRA :0
+ITRA2:0
+maxDepth 4
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 4668.46毫秒
+查询时间：24787.5毫秒
+UTFR :0.585235
+ITRA :0
+ITRA2:0
+maxDepth 4
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 3516.61毫秒
+查询时间：42246.2毫秒
+UTFR :0.517924
+ITRA :0
+ITRA2:0
+maxDepth 5
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 4325.88毫秒
+查询时间：2169.75毫秒
+UTFR :0.748967
+ITRA :0
+ITRA2:0
+maxDepth 5
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 4016.51毫秒
+查询时间：19455.4毫秒
+UTFR :0.53596
+ITRA :0
+ITRA2:0
+maxDepth 5
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 5209.87毫秒
+查询时间：17746.4毫秒
+UTFR :0.630201
+ITRA :0
+ITRA2:0
+maxDepth 5
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 3959.46毫秒
+查询时间：21400.6毫秒
+UTFR :0.61229
+ITRA :0
+ITRA2:0
+maxDepth 6
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 4736.28毫秒
+查询时间：1163.04毫秒
+UTFR :0.761066
+ITRA :0
+ITRA2:0
+maxDepth 6
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 4572.29毫秒
+查询时间：11076.9毫秒
+UTFR :0.605201
+ITRA :0
+ITRA2:0
+maxDepth 6
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 5855.09毫秒
+查询时间：8744.02毫秒
+UTFR :0.643879
+ITRA :0
+ITRA2:0
+maxDepth 6
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 4306.12毫秒
+查询时间：9527.84毫秒
+UTFR :0.66184
+ITRA :0
+ITRA2:0
+maxDepth 7
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 5267.32毫秒
+查询时间：649.284毫秒
+UTFR :0.776447
+ITRA :0
+ITRA2:0
+maxDepth 7
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 4984.4毫秒
+查询时间：5388.14毫秒
+UTFR :0.668479
+ITRA :0
+ITRA2:0
+maxDepth 7
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 6288.07毫秒
+查询时间：4428.63毫秒
+UTFR :0.648188
+ITRA :0
+ITRA2:0
+maxDepth 7
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 5087.47毫秒
+查询时间：5010.85毫秒
+UTFR :0.684712
+ITRA :0
+ITRA2:0
+maxDepth 8
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 6254.37毫秒
+查询时间：373.378毫秒
+UTFR :0.803101
+ITRA :0
+ITRA2:0
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 8
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 5695.06毫秒
+查询时间：3089.46毫秒
+UTFR :0.697237
+ITRA :0
+ITRA2:0
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 8
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 7192.83毫秒
+查询时间：2508.28毫秒
+UTFR :0.705879
+ITRA :0
+ITRA2:0
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 8
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 5433.94毫秒
+查询时间：2900.85毫秒
+UTFR :0.707408
+ITRA :0
+ITRA2:0
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 9
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 5717.23毫秒
+查询时间：233.248毫秒
+UTFR :0.839801
+ITRA :0
+ITRA2:0
+maxDepth 9
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 6269.53毫秒
+查询时间：1995.96毫秒
+UTFR :0.746186
+ITRA :0
+ITRA2:0
+maxDepth 9
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 7164.27毫秒
+查询时间：1350.65毫秒
+UTFR :0.723891
+ITRA :0
+ITRA2:0
+maxDepth 9
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 5086.2毫秒
+查询时间：1553.64毫秒
+UTFR :0.753125
+ITRA :0
+ITRA2:0
+maxDepth 10
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 6254.34毫秒
+查询时间：159.484毫秒
+UTFR :0.867381
+ITRA :0.149603
+ITRA2:0.0145924
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 10
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 9926.42毫秒
+查询时间：783.736毫秒
+UTFR :0.796864
+ITRA :0.0976693
+ITRA2:0.00165021
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 10
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 7746.04毫秒
+查询时间：841.205毫秒
+UTFR :0.764197
+ITRA :0.084139
+ITRA2:0.00163787
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 10
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 5615.7毫秒
+查询时间：798.587毫秒
+UTFR :0.811944
+ITRA :0.105502
+ITRA2:0.00163674
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 11
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 7137.72毫秒
+查询时间：120.526毫秒
+UTFR :0.892658
+ITRA :0
+ITRA2:0
+maxDepth 11
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 14777.3毫秒
+查询时间：553.889毫秒
+UTFR :0.828002
+ITRA :0
+ITRA2:0
+maxDepth 11
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 8232.03毫秒
+查询时间：659.906毫秒
+UTFR :0.784965
+ITRA :0
+ITRA2:0
+maxDepth 11
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 5726.21毫秒
+查询时间：540.785毫秒
+UTFR :0.824495
+ITRA :0
+ITRA2:0
+maxDepth 12
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 7668.37毫秒
+查询时间：103.914毫秒
+UTFR :0.911872
+ITRA :0
+ITRA2:0
+maxDepth 12
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 19499.3毫秒
+查询时间：307.988毫秒
+UTFR :0.850547
+ITRA :0
+ITRA2:0
+maxDepth 12
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 9194.11毫秒
+查询时间：430.118毫秒
+UTFR :0.808913
+ITRA :0
+ITRA2:0
+maxDepth 12
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 5885.57毫秒
+查询时间：330.302毫秒
+UTFR :0.83717
+ITRA :0
+ITRA2:0
+maxDepth 13
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 8321.78毫秒
+查询时间：97.281毫秒
+UTFR :0.925524
+ITRA :0
+ITRA2:0
+maxDepth 13
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 35621.3毫秒
+查询时间：201.648毫秒
+UTFR :0.871465
+ITRA :0
+ITRA2:0
+maxDepth 13
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 9558.57毫秒
+查询时间：392.294毫秒
+UTFR :0.823342
+ITRA :0
+ITRA2:0
+maxDepth 13
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 6583.96毫秒
+查询时间：213.109毫秒
+UTFR :0.853553
+ITRA :0
+ITRA2:0
+maxDepth 14
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 9675.31毫秒
+查询时间：133.626毫秒
+UTFR :0.934292
+ITRA :0
+ITRA2:0
+maxDepth 14
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 67376.1毫秒
+查询时间：132.96毫秒
+UTFR :0.889501
+ITRA :0
+ITRA2:0
+maxDepth 14
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 10439.5毫秒
+查询时间：399.043毫秒
+UTFR :0.82973
+ITRA :0
+ITRA2:0
+maxDepth 14
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 6924.05毫秒
+查询时间：183.254毫秒
+UTFR :0.869987
+ITRA :0
+ITRA2:0
+maxDepth 15
+leafShreshold 25
+BSPConstructType SDM
+建树耗时： 11286.5毫秒
+查询时间：170.459毫秒
+UTFR :0.942058
+ITRA :0.342412
+ITRA2:0.125268
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 15
+leafShreshold 25
+BSPConstructType SAH
+建树耗时： 86170.5毫秒
+查询时间：66.6629毫秒
+UTFR :0.904857
+ITRA :0.208531
+ITRA2:0.0239267
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 15
+leafShreshold 25
+BSPConstructType ObbMiddel
+建树耗时： 9773.75毫秒
+查询时间：384.461毫秒
+UTFR :0.832411
+ITRA :0.118386
+ITRA2:0.00445683
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+maxDepth 15
+leafShreshold 25
+BSPConstructType Gravity_SPLIT
+建树耗时： 7201.4毫秒
+查询时间：130.244毫秒
+UTFR :0.884491
+ITRA :0.171763
+ITRA2:0.018511
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file
+[OBJWriter] : write file

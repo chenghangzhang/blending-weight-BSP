@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{43f8df41-2fbd-4ff6-9dec-b7a6aca7fc93}</ProjectGuid>
+    <RootNamespace>BSP3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>OpenMesh\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>OpenMesh\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>mBool\OpenMesh\include;mBool;mBool\Eigen\</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>mPch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>mBool\OpenMesh\lib;mBool\OpenGL\GLAD\lib;mBool\OpenGL\GLFW\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenMeshCored.lib;OpenMeshToolsd.lib;glad.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPAccelerator.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPNode.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPTree.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\Direct\DirectMeshIntersectAccelerator.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\Base\MeshIntersectAccelerator.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTAccelerator.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTNode.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTree.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\MeshIntersectResult.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\MeshTriangleIntersectRecord.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Path\MeshIntersectPath.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Path\PathSegment.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectMiddleVertex.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectOriginalVertex.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectTerminalVertex.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectVertex.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Intersect\MeshIntersect.cpp" />
+    <ClCompile Include="mBool\BoolOperate\MeshBoolOperate.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Combine\Combine.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Classify\Classify.cpp" />
+    <ClCompile Include="mBool\BoolOperate\PreProcess\PreProcess.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Remesh\RemeshOperate\CDTRemsh.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Remesh\RemeshOperate\Dependency\RemeshPathEdge.cpp" />
+    <ClCompile Include="mBool\BoolOperate\Remesh\RemeshOperate\RemeshOperate.cpp" />
+    <ClCompile Include="mBool\DataChange\DataTranslate.cpp" />
+    <ClCompile Include="mBool\DataGenerate\GenerateMesh.cpp" />
+    <ClCompile Include="mBool\DataGenerate\ReadCheckPair.cpp" />
+    <ClCompile Include="mBool\MathSurport\Boost.cpp" />
+    <ClCompile Include="mBool\mPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mBool\MathSurport\Detect\IsOn\IsOn.cpp" />
+    <ClCompile Include="mBool\MathSurport\Detect\Relation\LineSegment\LineSegmentIntersect.cpp" />
+    <ClCompile Include="mBool\MathSurport\Detect\Relation\Point3dTriangle3dRelation.cpp" />
+    <ClCompile Include="mBool\MathSurport\MathSurport.cpp" />
+    <ClCompile Include="mBool\MathSurport\UtilsUtils.cpp" />
+    <ClCompile Include="mBool\Render\Camera\Camera.cpp" />
+    <ClCompile Include="mBool\Render\DataBind\DataBinder.cpp" />
+    <ClCompile Include="mBool\Render\Light\Light.cpp" />
+    <ClCompile Include="mBool\Render\Pipline\Renderer\Base\CompositeRenderer.cpp" />
+    <ClCompile Include="mBool\Render\Pipline\Renderer\Base\UnitRenderer.cpp" />
+    <ClCompile Include="mBool\Render\Pipline\Renderer\EdgeSetRenderer\EdgeSetRenderer.cpp" />
+    <ClCompile Include="mBool\Render\Pipline\RenderParas.cpp" />
+    <ClCompile Include="mBool\Render\Pipline\RenderScence.cpp" />
+    <ClCompile Include="mBool\Render\Render.cpp" />
+    <ClCompile Include="mBool\Render\Shader\Base\FragmentShader.cpp" />
+    <ClCompile Include="mBool\Render\Shader\Base\Shader.cpp" />
+    <ClCompile Include="mBool\Render\Shader\Base\ShaderTemplate.cpp" />
+    <ClCompile Include="mBool\Render\Shader\Base\VertexShader.cpp" />
+    <ClCompile Include="mBool\Render\Shader\LitShader\LitShader.cpp" />
+    <ClCompile Include="mBool\Render\Shader\SolidShader\SolidShader.cpp" />
+    <ClCompile Include="mBool\Render\Wnd\RenderWnd.cpp" />
+    <ClCompile Include="mBool\MathSurport\test.cpp" />
+    <ClCompile Include="TestBool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\Accelerator.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPAccelerator.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPNode.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPTree.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\BSP\BSPTree\BSPTreeHeader.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\Direct\DirectMeshIntersectAccelerator.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\Base\MeshIntersectAccelerator.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTAccelerator.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTNode.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTree.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Accelerator\OCT\OCTree\OCTreeHeader.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Dependency.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\MeshIntersectResult.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\MeshTriangleIntersectRecord.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Path\MeshIntersectPath.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Path\PathSegment.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\IntersectionVertex.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectMiddleVertex.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectOriginalVertex.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectTerminalVertex.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\Dependency\Vertex\MeshIntersectVertex.h" />
+    <ClInclude Include="mBool\BoolOperate\Intersect\MeshIntersect.h" />
+    <ClInclude Include="mBool\BoolOperate\MeshBoolOperate.h" />
+    <ClInclude Include="mBool\BoolOperate\BoolRely.h" />
+    <ClInclude Include="mBool\BoolOperate\PreProcess\PreProcess.h" />
+    <ClInclude Include="mBool\BoolOperate\Remesh\RemeshOperate\CDTRemsh.h" />
+    <ClInclude Include="mBool\BoolOperate\Remesh\RemeshOperate\Dependency\RemeshPathEdge.h" />
+    <ClInclude Include="mBool\BoolOperate\Remesh\RemeshOperate\RemeshOperate.h" />
+    <ClInclude Include="mBool\DataChange\DataTranslate.h" />
+    <ClInclude Include="mBool\DataGenerate\GenerateMesh.h" />
+    <ClInclude Include="mBool\DataGenerate\ReadCheckPair.h" />
+    <ClInclude Include="mBool\MathSurport\Boost.h" />
+    <ClInclude Include="mBool\MathSurport\Detect\Detect.h" />
+    <ClInclude Include="mBool\MathSurport\Detect\IsOn\IsOn.h" />
+    <ClInclude Include="mBool\MathSurport\UtilsUtils.h" />
+    <ClInclude Include="mBool\MyMesh.h" />
+    <ClInclude Include="mBool\MathSurport\Detect\Relation\LineSegment\LineSegmentIntersect.h" />
+    <ClInclude Include="mBool\MathSurport\Detect\Relation\Point3dTriangle3dRelation.h" />
+    <ClInclude Include="mBool\MathSurport\MathSurport.h" />
+    <ClInclude Include="mBool\MathSurport\Utils.h" />
+    <ClInclude Include="mBool\mPch.h" />
+    <ClInclude Include="mBool\BoolOperate\Remesh\Remesh.h" />
+    <ClInclude Include="mBool\BoolOperate\Combine\Combine.h" />
+    <ClInclude Include="mBool\BoolOperate\Classify\Classify.h" />
+    <ClInclude Include="mBool\Render\Camera\Camera.h" />
+    <ClInclude Include="mBool\Render\DataBind\DataBinder.h" />
+    <ClInclude Include="mBool\Render\learnopengl\camera_s.h" />
+    <ClInclude Include="mBool\Render\learnopengl\filesystem.h" />
+    <ClInclude Include="mBool\Render\learnopengl\shader_s.h" />
+    <ClInclude Include="mBool\Render\Light\Light.h" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\Base\CompositeRenderer.h" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\Base\SingleRenderer.hpp" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\Base\UnitRenderer.h" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\ComponentRenderer\EdgesRenderer\EdgesRenderer.hpp" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\ComponentRenderer\TrianglesRenderer\TrianglesRenderer.hpp" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\ComponentRenderer\VerticesRenderer\VerticesRenderer.hpp" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\EdgeSetRenderer\EdgeSetRenderer.h" />
+    <ClInclude Include="mBool\Render\Pipline\Renderer\MeshRenderer\Mesh3dRenderer.hpp" />
+    <ClInclude Include="mBool\Render\Pipline\RenderParas.h" />
+    <ClInclude Include="mBool\Render\Pipline\RenderScence.h" />
+    <ClInclude Include="mBool\Render\Render.h" />
+    <ClInclude Include="mBool\Render\Shader\Base\FragmentShader.h" />
+    <ClInclude Include="mBool\Render\Shader\Base\Shader.h" />
+    <ClInclude Include="mBool\Render\Shader\Base\ShaderTemplate.h" />
+    <ClInclude Include="mBool\Render\Shader\Base\VertexShader.h" />
+    <ClInclude Include="mBool\Render\Shader\LitShader\LitShader.h" />
+    <ClInclude Include="mBool\Render\Shader\SolidShader\SolidShader.h" />
+    <ClInclude Include="mBool\Render\Wnd\RenderWnd.h" />
+    <ClInclude Include="mBool\MathSurport\test.h" />
+    <ClInclude Include="TestBool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mBool\Tessil\ordered_hash" />
+    <None Include="mBool\Tessil\ordered_map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MA.txt" />
+    <Text Include="MB.txt" />
+    <Text Include="mBool\Tessil\README.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

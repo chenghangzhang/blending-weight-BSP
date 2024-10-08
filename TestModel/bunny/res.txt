@@ -1,0 +1,294 @@
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 5965.49毫秒
+查询时间：33.0331毫秒
+UTFR :0.981372
+ITRA :0.247878
+ITRA2:0.0227838
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 6593.55毫秒
+查询时间：644.005毫秒
+UTFR :0.93477
+ITRA :0.0707879
+ITRA2:0.000695303
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 6001.77毫秒
+查询时间：1252.06毫秒
+UTFR :0.920775
+ITRA :0.0582834
+ITRA2:0.000333504
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 5126.34毫秒
+查询时间：562.966毫秒
+UTFR :0.934233
+ITRA :0.0702092
+ITRA2:0.000813374
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 3303.96毫秒
+查询时间：35.6743毫秒
+UTFR :0.945916
+ITRA :0.258876
+ITRA2:0.0294899
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 13724.5毫秒
+查询时间：111.279毫秒
+UTFR :0.915433
+ITRA :0.165563
+ITRA2:0.00517319
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 2884.01毫秒
+查询时间：504.678毫秒
+UTFR :0.846308
+ITRA :0.0910984
+ITRA2:0.00114369
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 2182.79毫秒
+查询时间：118.95毫秒
+UTFR :0.902432
+ITRA :0.143501
+ITRA2:0.00481584
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 4131.62毫秒
+查询时间：61.3128毫秒
+UTFR :0.915953
+ITRA :0.228463
+ITRA2:0.0187657
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 15934.1毫秒
+查询时间：271.878毫秒
+UTFR :0.826506
+ITRA :0.110676
+ITRA2:0.00295517
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 4350.09毫秒
+查询时间：738.349毫秒
+UTFR :0.775662
+ITRA :0.085592
+ITRA2:0.00100462
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 3582.72毫秒
+查询时间：252.408毫秒
+UTFR :0.845868
+ITRA :0.124578
+ITRA2:0.00341429
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: patch re-linking failed
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: patch re-linking failed
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 8134.97毫秒
+查询时间：131.808毫秒
+UTFR :0.944862
+ITRA :0.164226
+ITRA2:0.00985807
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 8359.86毫秒
+查询时间：896.09毫秒
+UTFR :0.884579
+ITRA :0.0784529
+ITRA2:0.00107658
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 10187.6毫秒
+查询时间：2042.84毫秒
+UTFR :0.848992
+ITRA :0.0599644
+ITRA2:0.000481259
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 5933.87毫秒
+查询时间：579.769毫秒
+UTFR :0.913898
+ITRA :0.105166
+ITRA2:0.00155732
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: patch re-linking failed
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: patch re-linking failed
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 5624.43毫秒
+查询时间：140.184毫秒
+UTFR :0.906513
+ITRA :0.211415
+ITRA2:0.015098
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 6777.91毫秒
+查询时间：511.382毫秒
+UTFR :0.854835
+ITRA :0.136152
+ITRA2:0.00287969
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 7396.49毫秒
+查询时间：736.949毫秒
+UTFR :0.808367
+ITRA :0.103137
+ITRA2:0.00191918
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 5483.96毫秒
+查询时间：408.804毫秒
+UTFR :0.861122
+ITRA :0.142316
+ITRA2:0.00318192
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex edge
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex edge
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 8880.59毫秒
+查询时间：195.09毫秒
+UTFR :0.937623
+ITRA :0.128722
+ITRA2:0.00559487
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 12506.9毫秒
+查询时间：1163.22毫秒
+UTFR :0.869103
+ITRA :0.0613403
+ITRA2:0.000750637
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 11688毫秒
+查询时间：5306.64毫秒
+UTFR :0.683473
+ITRA :0.0253667
+ITRA2:0.000181562
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 8440.24毫秒
+查询时间：1039.08毫秒
+UTFR :0.872503
+ITRA :0.0629762
+ITRA2:0.000915127
+PolyMeshT::add_face: complex vertex
+PolyMeshT::add_face: complex edge
+maxDepth 10
+leafShreshold 5
+BSPConstructType SDM
+建树耗时： 20481.6毫秒
+查询时间：1219毫秒
+UTFR :0.790154
+ITRA :0.11842
+ITRA2:0.0037143
+maxDepth 10
+leafShreshold 5
+BSPConstructType SAH
+建树耗时： 24674.4毫秒
+查询时间：4571.14毫秒
+UTFR :0.706832
+ITRA :0.0847631
+ITRA2:0.000836368
+maxDepth 10
+leafShreshold 5
+BSPConstructType ObbMiddel
+建树耗时： 25723.2毫秒
+查询时间：88277.5毫秒
+UTFR :0.322565
+ITRA :0.0366823
+ITRA2:4.71985e-05
+maxDepth 10
+leafShreshold 5
+BSPConstructType Gravity_SPLIT
+建树耗时： 19168.2毫秒
+查询时间：4828.31毫秒
+UTFR :0.696858
+ITRA :0.0819742
+ITRA2:0.000900445
+
+C:\Users\NUOSEN\Desktop\work\BSP\bool-new3-d\x64\Debug\BSP3.exe (进程 25988)已退出，代码为 0。
+要在调试停止时自动关闭控制台，请启用“工具”->“选项”->“调试”->“调试停止时自动关闭控制台”。
+按任意键关闭此窗口. . .
